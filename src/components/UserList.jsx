@@ -11,7 +11,6 @@ import {
 } from "./ui/card";
 import { Badge } from "./ui/badge";
 import { useEffect, useState } from "react";
-import { Skeleton } from "./ui/skeleton";
 import SkeletonCard from "./SkeletonCard";
 const fetchUsers = async () => {
     const response = await fetch("https://jsonplaceholder.typicode.com/users");
