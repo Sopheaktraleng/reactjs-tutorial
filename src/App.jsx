@@ -3,6 +3,7 @@ import { MenubarDemo } from "./components/dashboard/menu";
 import { PaginationDemo } from "./components/dashboard/pagination";
 import { SelectDemo } from "./components/dashboard/select";
 import { SwitchDemo } from "./components/dashboard/switch";
+import ElfsightWidget from "./components/SpinWheel";
 import UserList from "./components/UserList";
 import "./index.css";
 
@@ -25,6 +26,7 @@ function App() {
             <UserList />
             <PaginationDemo></PaginationDemo>
             <CheckboxWithText />
+            <ElfsightWidget />
         </div>
     );
 }
